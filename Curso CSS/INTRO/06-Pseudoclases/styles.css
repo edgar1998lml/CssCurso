@@ -1,0 +1,43 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+    font-size: 30px;
+}
+ul li:first-child{
+    color:purple;
+    font-size: 20px;
+}
+ul li:nth-child(3){
+    color:blue;
+    font-weight: bold;
+}
+ul li:last-child{
+    color: gray;
+    font-weight: bold;
+}
+#MiEnlace{
+    color: salmon;
+    font-size: 40px;
+}
+#MiEnlace:link{
+    color: red;
+}
+#MiEnlace:visited{
+    color: orange;
+}
+#MiEnlace:hover{
+    color: blue;
+}
+#MiEnlace:active{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input[type="Text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+input[type="Text"]:focus{
+    border: 4px dashed red;
+}

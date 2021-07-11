@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    /*
+    background-image: url("descarga.jfif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: 100%;
+    */
+}
+.Caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: red;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+br{
+    color: blue;
+    text-align: center;
+}
+h2{
+    border: 5px solid red;
+    padding: auto;
+    background-image: url(p1.jpg);
+    text-align: end;
+    line-height: 40px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
